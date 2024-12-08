@@ -36,7 +36,7 @@ $link = mysqli_connect('127.0.0.1', 'root', '12345', 'ascs');
 
 if (isset($_POST['submit'])) {
     $email = $_POST['email'];
-    $username = $_POST['username'];
+    $username = $_POST['login'];
     $password = $_POST['password'];
 
 
