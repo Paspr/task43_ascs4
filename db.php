@@ -19,7 +19,7 @@ if (!$mysqli_query($link, $sql)) {
 mysqli_close($link);
 
 
-$link = mysqli_connect($servername, $username, $password);
+$link = mysqli_connect($servername, $username, $password, $dbName);
 
 $sql = "CREATE TABLE IF NOT EXISTS users(
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
