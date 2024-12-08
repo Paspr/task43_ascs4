@@ -32,7 +32,7 @@
 
 <?php
 require_once('db.php');
-$link = mysqli_connect('127.0.0.1', 'root', '12345', 'ascs');
+$link = mysqli_connect('127.0.0.1', 'root', 'kali', 'ascs');
 
 if (isset($_POST['submit'])) {
     $email = $_POST['email'];
